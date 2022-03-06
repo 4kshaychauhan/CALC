@@ -59,12 +59,11 @@
         <Button
             android:id="@+id/btncurve"
             style="@style/buttonnumber"
-            android:text="()"/>
+            android:text="("/>
         <Button
-            android:id="@+id/btnback"
+            android:id="@+id/btncurve2"
             style="@style/buttonnumber"
-            android:text="⌫"
-            android:textColor="@color/green"/>
+            android:text=")"/>
         <Button
             android:id="@+id/btndiv"
             style="@style/buttonoperator"
@@ -141,17 +140,18 @@
         style="@style/buttonrow">
 
         <Button
-            android:id="@+id/btnve"
+            android:id="@+id/btndot"
             style="@style/buttonnumber"
-            android:text="+/-"/>
+            android:text="."/>
         <Button
             android:id="@+id/btn0"
             style="@style/buttonnumber"
             android:text="0"/>
         <Button
-            android:id="@+id/btndot"
+            android:id="@+id/btnback"
             style="@style/buttonnumber"
-            android:text="."/>
+            android:text="⌫"
+            android:textColor="@color/green"/>
         <Button
             android:id="@+id/btnequal"
             style="@style/buttonnumber"
